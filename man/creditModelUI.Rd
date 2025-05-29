@@ -2,10 +2,10 @@
 % Please edit documentation in R/creditModel.R
 \name{creditModelUI}
 \alias{creditModelUI}
-\title{信用额度生成生成器界面}
+\title{信用测算生成生成器界面}
 \usage{
 creditModelUI(
-  tabTitle = "信用额度",
+  tabTitle = "信用测算",
   colTitles = c("操作区域", "操作区域", "显示区域"),
   widthRates = c(6, 6, 12),
   func_left = creditModelUI_left,
@@ -30,7 +30,7 @@ creditModelUI(
 返回值
 }
 \description{
-信用额度生成生成器界面
+信用测算生成生成器界面
 }
 \examples{
 creditModelUI()

@@ -1,4 +1,4 @@
-#' 信用额度生成生成器界面
+#' 信用测算生成生成器界面
 #'
 #' @param colTitles  主页标题
 #' @param widthRates 左右比例
@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' creditModelUI()
-creditModelUI <- function(tabTitle ='信用额度',
+creditModelUI <- function(tabTitle ='信用测算',
                          colTitles =c('操作区域','操作区域','显示区域'),
                          widthRates =c(6,6,12),
                          func_left = creditModelUI_left,
@@ -68,7 +68,7 @@ creditModelUI_right <- function() {
 
     shiny::actionButton(inputId = 'btn_creditModel_select',label = '查询'),
 
-    tsui::mdl_download_button(id = 'dl_creditModel',label = '下载信用额度至EXCEL')
+    tsui::mdl_download_button(id = 'dl_creditModel',label = '下载查询数据至EXCEL')
 
 
 
